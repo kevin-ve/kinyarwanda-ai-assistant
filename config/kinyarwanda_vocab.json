@@ -1,0 +1,69 @@
+{
+  "greetings": {
+    "habari": "How are you?",
+    "muraho": "Hello",
+    "nzira nziza": "Good morning",
+    "joro nziza": "Good afternoon",
+    "gihe cy'ijoro": "Good evening"
+  },
+  
+  "commands": {
+    "fungura": "Open",
+    "funga": "Close",
+    "andika": "Type",
+    "sehe": "Show",
+    "yandika": "Write",
+    "soma": "Read",
+    "shyira": "Put",
+    "karamo": "Search",
+    "gukurura": "Delete",
+    "gusunika": "Save",
+    "kubika": "Hide",
+    "kwerekeza": "Turn on",
+    "guhanika": "Organize",
+    "gufungurura": "Unlock",
+    "gufatanya": "Copy",
+    "gupakira": "Paste"
+  },
+  
+  "applications": {
+    "notepad": "Umunyamakuru",
+    "chrome": "Chrome",
+    "firefox": "Firefox",
+    "excel": "Excel",
+    "word": "Word",
+    "calc": "Calc",
+    "file_manager": "Iyohereza y'inyandiko",
+    "settings": "Igenamiterere",
+    "calculator": "Mubare",
+    "terminal": "Terminal"
+  },
+  
+  "system_info": {
+    "sehe_ururingo": "Show time",
+    "sehe_itariki": "Show date",
+    "gusubiramo_sisitemu": "System restart",
+    "guhanika_dosiye": "File organization",
+    "ibyo_nakoreye_uyu_munsi": "Today's activities",
+    "ibyo_nakoreye_iyambure": "Weekly activities"
+  },
+  
+  "responses": {
+    "aha": "Yes",
+    "oya": "No",
+    "mwaramutse": "Good morning (response)",
+    "nsubire gake": "I'm back",
+    "ni ukuri": "That's true",
+    "mbwira": "Tell me",
+    "ubwenge": "Intelligence",
+    "kuva": "From"
+  },
+  
+  "notifications": {
+    "task_completed": "Umurimo warangizwe",
+    "file_modified": "Inyandiko yavuguruwe",
+    "app_opened": "Porogaramu yafungurwa",
+    "pattern_detected": "Imigera y'iziraniro yatangiyemo",
+    "prediction": "Hari isesenguro"
+  }
+}

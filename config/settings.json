@@ -1,0 +1,61 @@
+{
+  "app_name": "Kinyarwanda AI Assistant",
+  "version": "1.0.0",
+  "language": "kinyarwanda",
+  "theme": "dark",
+  
+  "memory": {
+    "max_cache_size": "200MB",
+    "model_cache": "100MB",
+    "screenshot_quality": 0.6,
+    "max_history": 1000
+  },
+  
+  "processing": {
+    "max_threads": 2,
+    "batch_size": 32,
+    "polling_interval": 5,
+    "screenshot_interval": 10,
+    "analysis_interval": 60
+  },
+  
+  "monitoring": {
+    "screen_monitoring": true,
+    "file_monitoring": true,
+    "activity_tracking": true,
+    "application_tracking": true
+  },
+  
+  "learning": {
+    "auto_learn": true,
+    "learning_interval": 3600,
+    "min_data_points": 50,
+    "pattern_sensitivity": 0.7
+  },
+  
+  "notifications": {
+    "enabled": true,
+    "show_suggestions": true,
+    "notification_timeout": 5,
+    "sound_enabled": true
+  },
+  
+  "tts": {
+    "language": "kinyarwanda",
+    "rate": 150,
+    "volume": 0.9,
+    "engine": "pyttsx3"
+  },
+  
+  "database": {
+    "type": "sqlite",
+    "path": "data/assistant.db",
+    "auto_backup": true,
+    "backup_interval": 3600
+  },
+  
+  "api": {
+    "offline_only": true,
+    "enable_local_api": false
+  }
+}

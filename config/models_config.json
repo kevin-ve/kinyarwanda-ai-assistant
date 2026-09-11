@@ -1,0 +1,56 @@
+{
+  "models": {
+    "pattern_detector": {
+      "type": "isolation_forest",
+      "contamination": 0.1,
+      "n_estimators": 50
+    },
+    "activity_classifier": {
+      "type": "random_forest",
+      "n_estimators": 50,
+      "max_depth": 10,
+      "min_samples_split": 5
+    },
+    "time_series_predictor": {
+      "type": "linear_regression",
+      "look_back": 7
+    },
+    "habit_learner": {
+      "type": "kmeans",
+      "n_clusters": 5,
+      "n_init": 10
+    }
+  },
+  
+  "features": {
+    "activity": [
+      "time_of_day",
+      "day_of_week",
+      "app_name",
+      "file_type",
+      "duration",
+      "keyboard_intensity",
+      "mouse_intensity"
+    ],
+    "screen": [
+      "text_detected",
+      "dominant_color",
+      "screen_change_rate"
+    ],
+    "file": [
+      "file_extension",
+      "file_size",
+      "access_frequency",
+      "modification_time"
+    ]
+  },
+  
+  "training": {
+    "min_samples": 50,
+    "test_split": 0.2,
+    "validation_split": 0.1,
+    "epochs": 10,
+    "batch_size": 32,
+    "learning_rate": 0.01
+  }
+}
